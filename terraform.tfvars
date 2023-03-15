@@ -1,0 +1,16 @@
+vsphere_server               = "Set VSPhere or VCenter IP Address"
+vsphere_user                 = "Set VSphere or VCenter Username"
+vsphere_password             = "Set VSphere or VCenter Password"
+resource_pool_designator     = "Set Existing ResourcePool in VSphere"
+vcenter_dataceneter_name     = "Set DataCenter Name in VCenter"
+vsphere_datastore_name       = "Set Existing DataStore Name"
+vsphere_network_name         = "Set Network Name"
+vsphere_virtual_machine_name = "Set Virtual Machine Name"
+num_cpus_count               = 2
+num_cores_per_socket_count   = 2
+cpu_hot_add                  = true
+memory_capacity              = 8192
+memory_hot_add               = true
+guest_id_osguest             = "oracleLinux7_64Guest"
+firmware_type                = "bios"
+disk_capacity                = 50
